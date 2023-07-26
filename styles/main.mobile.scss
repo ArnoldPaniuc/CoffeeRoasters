@@ -1,24 +1,69 @@
-@media (width < 370px) {
-    body{
-        margin: 0;
-        padding: 0;
+@import "base";
+@import "mixins";
 
-        .main{
-            height: 100vh;
+@media (width < 375px) {
+
+    body{
+        background-color: #FEFCF7;
+    }
+
+    .nav {
+        height: 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 0;
+        padding: 0px 24px 104px 24px;
+
+        header{
             display: flex;
-            flex-direction: column;
             justify-content: space-between;
-            padding-bottom: 120px;
-            
-                header{
-                    color: white;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    width: 327px;
-                    padding-left: 21.5px;
-                    padding-right: 21.5px;
-                }
+            align-items: center;
+        }
+    }
+
+    .first-container {
+        height: 500px;
+        background-image: url(/images/Bitmap.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        color: #FEFCF7;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 24px;
+        margin-right: 24px;
+
+        .title {
+            margin: 0;
+            font-family: 'Fraunces', serif;
+            font-size: 40px;
+            padding-bottom: 25px;
+        }
+
+        .paragraph {
+            margin: 0;
+            font-family: 'Barlow', sans-serif;
+            font-size: 15px;
+            margin: 0px 18px;
+            padding-bottom: 35px;
+            line-height: 27px;
+            color: #FEFCF7;
+        }
+
+        .btn1{
+            text-align: center;
+            border: none;
+            height: 56px;
+            width: 217px;
+            border-radius: 6px;
+            background-color: #0E8784;
+            font-family: 'Fraunces', serif;
+            font-size: 15px;
+            color: #FEFCF7;
         }
     }
 }
+
