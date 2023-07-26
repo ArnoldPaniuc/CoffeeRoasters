@@ -1,0 +1,24 @@
+@media (width < 370px) {
+    body{
+        margin: 0;
+        padding: 0;
+
+        .main{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-bottom: 120px;
+            
+                header{
+                    color: white;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 327px;
+                    padding-left: 21.5px;
+                    padding-right: 21.5px;
+                }
+        }
+    }
+}
