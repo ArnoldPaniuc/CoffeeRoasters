@@ -13,6 +13,7 @@ body {
 @media (width < 375px) {
   body {
     background-color: #FEFCF7;
+    padding-bottom: 104px;
   }
   .nav {
     height: 18px;
@@ -28,7 +29,7 @@ body {
     align-items: center;
   }
   .first-container {
-    height: 500px;
+    height: 490px;
     background-image: url(/images/Bitmap.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -66,5 +67,189 @@ body {
     font-family: "Fraunces", serif;
     font-size: 15px;
     color: #FEFCF7;
+  }
+  .collection {
+    background-color: #FEFCF7;
+    margin: 0;
+    font-family: "Fraunces", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 27px;
+    height: 50px;
+    color: #83888F;
+    position: relative;
+    z-index: 1;
+    padding-top: 104px;
+  }
+  .collection h2 {
+    background: -webkit-linear-gradient(#83888F, #eee);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bags {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 24px 16px 24px;
+    width: 100%;
+  }
+  .bags p {
+    font-family: "Barlow", sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+    margin: 0px 18px;
+    color: #333D4B;
+  }
+  .bags h3 {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    color: #333D4B;
+  }
+  .choose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    margin-top: 104px;
+  }
+  .choose h3 {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    color: #FEFCF7;
+  }
+  .choose p {
+    font-family: "Barlow", sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+    margin: 0px 18px;
+    color: #FEFCF7;
+  }
+  .choose .choose-2 {
+    margin-bottom: 24px;
+  }
+  .choose .quality {
+    background-color: #282f38;
+    height: 680px;
+    border-radius: 10px;
+  }
+  .choose .quality .coffee-bean {
+    background-color: #0E8784;
+    margin: 24px;
+    border-radius: 10px;
+    padding-top: 80px;
+    height: 400px;
+  }
+  .choose .quality .coffee-bean p {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+  .choose .quality .coffee-bean h3 {
+    padding-top: 50px;
+  }
+  .choose .quality .exclusive {
+    background-color: #0E8784;
+    margin: 24px;
+    border-radius: 10px;
+    padding-top: 80px;
+    height: 400px;
+  }
+  .choose .quality .exclusive p {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+  .choose .quality .exclusive h3 {
+    padding-top: 50px;
+  }
+  .choose .quality .free {
+    background-color: #0E8784;
+    margin: 24px;
+    border-radius: 10px;
+    padding-top: 80px;
+    height: 400px;
+  }
+  .choose .quality .free p {
+    margin-right: 32px;
+    margin-left: 32px;
+  }
+  .choose .quality .free h3 {
+    padding-top: 50px;
+  }
+  .how-it-works {
+    margin-top: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 24px 16px 24px;
+    width: 100%;
+  }
+  .how-it-works p {
+    font-family: "Barlow", sans-serif;
+    line-height: 25px;
+    font-size: 15px;
+    margin: 0px 5px;
+    color: #333D4B;
+    margin-bottom: 70px;
+  }
+  .how-it-works h4 {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    color: #83888F;
+  }
+  .how-it-works h3 {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    color: #333D4B;
+  }
+  .how-it-works .btn1 {
+    text-align: center;
+    border: none;
+    height: 56px;
+    width: 217px;
+    border-radius: 6px;
+    background-color: #0E8784;
+    font-family: "Fraunces", serif;
+    font-size: 15px;
+    color: #FEFCF7;
+    line-height: 25px;
+  }
+  .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #2C343E;
+    margin-top: 104px;
+    height: 450px;
+    color: #83888F;
+    font-family: "Barlow", sans-serif;
+    line-height: 15px;
+  }
+  .end .imagi {
+    width: 218px;
+    height: 24px;
+    margin-bottom: 50px;
+  }
+  .end .imag {
+    margin-top: 50px;
+  }
+  .end .imag img {
+    margin-right: 15px;
+    margin-left: 15px;
   }
 }/*# sourceMappingURL=main.mobile.css.map */
