@@ -1,1 +1,290 @@
-/*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Fraunces:wght@800&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0;
+}
+
+body {
+  background-color: #FEFCF7;
+  padding-bottom: 104px;
+  margin-right: 90px;
+  margin-left: 90px;
+}
+
+.nav {
+  height: 18px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.nav header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav header img {
+  height: 26px;
+}
+
+.first-container {
+  height: 600px;
+  width: 100%;
+  background-image: url(/images/Bitmap\ \(6\).png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  color: #FEFCF7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.first-container .title {
+  width: 329px;
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-size: 48px;
+  padding-bottom: 25px;
+  margin-left: 100px;
+}
+.first-container .paragraph {
+  width: 398px;
+  font-family: "Barlow", sans-serif;
+  font-size: 15px;
+  padding-bottom: 35px;
+  line-height: 27px;
+  color: #FEFCF7;
+  margin-left: 100px;
+}
+.first-container .btn1 {
+  text-align: center;
+  border: none;
+  height: 56px;
+  width: 217px;
+  border-radius: 6px;
+  background-color: #0E8784;
+  font-family: "Fraunces", serif;
+  font-size: 18px;
+  color: #FEFCF7;
+  margin-left: 100px;
+}
+
+.collection {
+  background-color: #FEFCF7;
+  font-family: "Fraunces", serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 196px;
+  width: 100%;
+  z-index: 1;
+  color: #83888F;
+}
+.collection h2 {
+  background: -webkit-linear-gradient(#83888F, #eee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 150px;
+}
+
+.bags {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 29px;
+  width: 100%;
+  transform: translate(0, -28%);
+}
+.bags img {
+  width: 255px;
+  height: 193px;
+}
+.bags p {
+  font-family: "Barlow", sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+  color: #333D4B;
+  width: 255px;
+  padding-right: 10px;
+}
+.bags h3 {
+  font-family: "Fraunces", serif;
+  font-size: 24px;
+  color: #333D4B;
+  width: 255px;
+  height: 32px;
+}
+
+.choose {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #2C343E;
+  border-radius: 10px;
+  width: 100%;
+  position: relative;
+}
+.choose h3 {
+  font-family: "Fraunces", serif;
+  font-size: 24px;
+  color: #FEFCF7;
+}
+.choose p {
+  font-family: "Barlow", sans-serif;
+  line-height: 25px;
+  font-size: 16px;
+  width: 255px;
+  height: 78px;
+  color: #FEFCF7;
+}
+.choose .choose-2 {
+  margin-bottom: 24px;
+  width: 540px;
+  height: 160px;
+}
+.choose .choose-2 p {
+  width: 540px;
+  height: 80px;
+  font-size: 16px;
+  line-height: 26px;
+}
+.choose .choose-2 h3 {
+  font-size: 40px;
+}
+.choose .quality {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 382px;
+  border-radius: 10px;
+  transform: translate(0%, 40%);
+}
+.choose .quality .coffee-bean,
+.choose .quality .exclusive,
+.choose .quality .free {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0E8784;
+  margin: 24px;
+  border-radius: 10px;
+  height: 382px;
+  width: 350px;
+}
+.choose .quality .coffee-bean img,
+.choose .quality .exclusive img,
+.choose .quality .free img {
+  width: 72px;
+  height: 72px;
+}
+
+.how-it-works {
+  padding-top: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.how-it-works .how {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.how-it-works .how .how-1,
+.how-it-works .how .how-2,
+.how-it-works .how .how-3 {
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+  height: 355px;
+  margin-right: 20px;
+}
+.how-it-works .how .how-1 img,
+.how-it-works .how .how-2 img,
+.how-it-works .how .how-3 img {
+  width: 90px;
+  height: 72px;
+}
+.how-it-works .how .how-1 p,
+.how-it-works .how .how-2 p,
+.how-it-works .how .how-3 p {
+  font-family: "Barlow", sans-serif;
+  line-height: 25px;
+  font-size: 15px;
+  margin: 0px 5px;
+  color: #333D4B;
+  margin-bottom: 70px;
+}
+.how-it-works .how .how-1 h4,
+.how-it-works .how .how-2 h4,
+.how-it-works .how .how-3 h4 {
+  font-family: "Fraunces", serif;
+  font-size: 24px;
+  color: #83888F;
+}
+.how-it-works .how .how-1 h3,
+.how-it-works .how .how-2 h3,
+.how-it-works .how .how-3 h3 {
+  font-family: "Fraunces", serif;
+  font-size: 24px;
+  color: #333D4B;
+}
+.how-it-works .btn1 {
+  text-align: center;
+  border: none;
+  height: 56px;
+  width: 217px;
+  border-radius: 6px;
+  background-color: #0E8784;
+  font-family: "Fraunces", serif;
+  font-size: 15px;
+  color: #FEFCF7;
+  line-height: 25px;
+}
+
+.end {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 24px;
+  margin-right: 24px;
+  background-color: #2C343E;
+  margin-top: 104px;
+  height: 450px;
+  color: #83888F;
+  font-family: "Barlow", sans-serif;
+  line-height: 15px;
+  width: 100%;
+}
+.end .imagi {
+  width: 218px;
+  height: 24px;
+  margin-bottom: 50px;
+}
+.end .imag {
+  margin-top: 25px;
+}
+.end .imag img {
+  margin-right: 15px;
+  margin-left: 15px;
+}/*# sourceMappingURL=main.css.map */
