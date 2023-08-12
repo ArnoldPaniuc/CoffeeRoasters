@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-@media (width < 375px) {
+@media (width < 376px) {
   body {
     background-color: #FEFCF7;
     padding-bottom: 104px;
@@ -27,6 +27,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .nav-2 .navigation {
+    display: none;
   }
   .first-container-2 {
     height: 520px;
