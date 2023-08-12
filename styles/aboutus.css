@@ -91,6 +91,7 @@ body {
   width: 100%;
   height: 520px;
   justify-content: center;
+  align-items: center;
   box-sizing: border-box;
   padding-left: 100px;
 }
@@ -104,8 +105,7 @@ body {
   font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 26px;
-  height: 260px;
-  padding-right: 550px;
+  margin-right: 76px;
 }
 .commitment .our h3 {
   font-family: "Fraunces", serif;
@@ -119,6 +119,7 @@ body {
 
 .uncompromising {
   display: flex;
+  justify-content: space-between;
   background-color: #2C343E;
   border-radius: 10px;
   margin-top: 204px;
@@ -126,21 +127,22 @@ body {
 .uncompromising .qua {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   padding-left: 100px;
+  margin-right: 183px;
 }
 .uncompromising .qua h3 {
   font-family: "Fraunces", serif;
-  font-size: 35px;
+  font-size: 40px;
   color: #FEFCF7;
   margin-bottom: 32px;
+  line-height: 48px;
 }
 .uncompromising .qua p {
   font-family: "Barlow", sans-serif;
-  line-height: 25px;
-  font-size: 15px;
+  line-height: 26px;
+  font-size: 16px;
   color: #FEFCF7;
-  padding-right: 150px;
+  margin-right: 83px;
 }
 .uncompromising img {
   display: flex;
@@ -148,66 +150,72 @@ body {
   width: 445px;
   height: 474px;
   border-radius: 10px;
-  position: relative;
-  transform: translate(0%, -25%);
+  transform: translate(-20%, -25%);
 }
 
 .headquarters {
-  margin: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 50px 24px 16px 24px;
+  justify-content: flex-start;
   width: 100%;
+  padding-right: 200px;
+  padding-left: 100px;
 }
-.headquarters h3 {
+.headquarters .head {
+  display: flex;
+  justify-content: space-between;
+}
+.headquarters .head h3 {
   font-family: "Fraunces", serif;
-  font-size: 36px;
+  font-size: 32px;
+  line-height: 36px;
   color: #333D4B;
 }
-.headquarters p {
+.headquarters .head p {
   font-family: "Barlow", sans-serif;
-  line-height: 25px;
-  font-size: 15px;
+  line-height: 26px;
+  font-size: 16px;
   margin: 0px 18px;
   color: #333D4B;
+}
+.headquarters .head img {
+  margin-top: 50px;
 }
 .headquarters h4 {
   font-family: "Fraunces", serif;
   color: #83888F;
-  font-size: 32px;
-  margin-bottom: 0px;
-}
-.headquarters img {
-  margin-top: 50px;
+  font-size: 24px;
+  line-height: 32px;
+  padding-top: 104px;
 }
 
 .end-2 {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
   background-color: #2C343E;
   margin-top: 104px;
-  height: 450px;
+  height: 120px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.end-2 .us {
+  display: flex;
+  padding-right: 150px;
+}
+.end-2 .us h4 {
   color: #83888F;
   font-family: "Barlow", sans-serif;
   line-height: 15px;
+  margin-left: 50px;
+  font-size: 12px;
 }
 .end-2 .imagi {
   width: 218px;
   height: 24px;
-  margin-bottom: 50px;
-}
-.end-2 .imag {
-  margin-top: 50px;
 }
 .end-2 .imag img {
-  margin-right: 15px;
-  margin-left: 15px;
+  margin-left: 20px;
+  width: 24px;
+  height: 24px;
 }/*# sourceMappingURL=aboutus.css.map */
