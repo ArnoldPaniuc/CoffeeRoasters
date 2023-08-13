@@ -234,9 +234,9 @@ body {
 .how-it-works .circles {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   position: relative;
-  margin-right: 250px;
+  width: 100%;
+  padding-right: 220px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -245,7 +245,7 @@ body {
   position: absolute;
   top: 50%;
   left: 0;
-  width: 50%;
+  width: 40%;
   height: 2px;
   background-color: #FDD6BA;
   transform: translateY(-50%);
