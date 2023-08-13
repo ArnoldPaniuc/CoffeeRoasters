@@ -12,53 +12,78 @@ body {
 
 body {
   background-color: #FEFCF7;
-  padding-bottom: 104px;
+  padding-bottom: 88px;
+  margin-right: 90px;
+  margin-left: 90px;
 }
 
-.nav-3 {
+.nav-2 {
   height: 18px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 0;
-  padding: 24px 24px 64px 24px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
-.nav-3 header {
+.nav-2 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.nav-2 header img {
+  height: 26px;
+}
+.nav-2 header .hamburger {
+  display: none;
+}
+.nav-2 header .navigation {
+  flex-grow: 1;
+}
+.nav-2 header .navigation ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  list-style: none;
+}
+.nav-2 header .navigation ul li {
+  margin-left: 30px;
+}
+.nav-2 header .navigation ul a {
+  font-family: "Barlow", sans-serif;
+  font-size: 12px;
+  color: #83888F;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 .first-container-3 {
-  height: 400px;
-  width: 327px;
-  background-image: url(/images/Bitmap\ \(4\).png);
-  background-size: contain;
+  height: 450px;
+  width: 100%;
+  background-image: url(/images/Bitmap\ \(9\).png);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-position: center center;
   color: #FEFCF7;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-left: 24px;
-  margin-right: 24px;
-  border-radius: 10px;
 }
 .first-container-3 .title {
-  margin: 0;
   font-family: "Fraunces", serif;
-  font-size: 40px;
-  padding-bottom: 25px;
+  font-size: 72px;
+  line-height: 72px;
+  margin-left: 50px;
+  color: #FEFCF7;
 }
 .first-container-3 .paragraph {
-  margin: 0;
-  font-family: "Barlow", sans-serif;
-  font-size: 15px;
-  margin: 0px 25px;
-  padding-bottom: 35px;
-  line-height: 27px;
+  width: 480px;
   color: #FEFCF7;
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  line-height: 27px;
+  margin-left: 50px;
+  padding-right: 40px;
 }
 
 .how-it-works {
