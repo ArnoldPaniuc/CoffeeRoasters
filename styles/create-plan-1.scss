@@ -88,12 +88,43 @@ body{
 
 .how-it-works{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     background-color: #2C343E;
     margin-top: 104px;
     padding-bottom: 50px;
+
+    .pick{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .circles{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        width: 100%;
+
+        img{
+            width: 31px;
+            z-index: 2;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 88%;
+            left: 65px;
+            width: 95.5%;
+            height: 2px; 
+            background-color: #FDD6BA;
+            transform: translateY(-50%);
+            z-index: 1; 
+        }
+   }
 
     p{
         font-family: 'Barlow', sans-serif;
@@ -117,13 +148,37 @@ body{
     }
 }
 
+.how-do-you{
+    display: flex;
+    justify-content: space-between;
+
+    .how-do-you-list{
+        font-family: 'Fraunces', serif;
+        font-size: 24px;
+        line-height: 32px;
+
+        h5{
+            color: #83888F;
+            width: 255px;
+        }
+
+        ul{
+            padding-right: 100px;
+            list-style: none;
+            padding-left: 50px;
+        }
+
+
+    }
+    
+}
 .nav-2 {
     height: 18px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-top: 0;
-    padding: 24px 24px 104px 24px;
+    padding-bottom: 104px;
 
     header{
         display: flex;
@@ -133,22 +188,26 @@ body{
 
     h3{
         font-family: 'Fraunces', serif;
-        font-size: 25px;
+        font-size: 40px;
         color: #83888F;
         margin-right: 80px;
+        line-height: 48px;
     }
 }
 
 .cap{
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     .capsules{
-        width: 328px;
-        height: 140px;
+        display: flex;
+        flex-direction: column;
+        width: 228px;
         background-color: #F4F1EB;
         border-radius: 10px;
-        margin-left: 24px;
-        margin-right: 24px;
         margin-top: 24px;
+        padding-right: 20px;
+        padding-bottom: 75px;
 
         h3{
             font-family: 'Fraunces', serif;
@@ -156,23 +215,27 @@ body{
             font-size: 24px;
             padding-left: 20px;
             padding-top: 20px;
+            font-size: 24px;
+            line-height: 32px;
         }
 
         p{
             padding-left: 20px;
             font-family: 'Barlow', sans-serif;
+            font-size: 16px;
+            line-height: 26px;
             color: #333D4B;
         }
     }
 
     .capsules-2{
-        width: 328px;
-        height: 140px;
+        width: 228px;
         background-color: #0E8784;
         border-radius: 10px;
-        margin-left: 24px;
-        margin-right: 24px;
-        margin-top: 25px;
+        margin-top: 24px;
+        padding-right: 5px;
+        padding-bottom: 75px;
+        
 
         h3{
             font-family: 'Fraunces', serif;
@@ -180,20 +243,22 @@ body{
             font-size: 24px;
             padding-left: 20px;
             padding-top: 20px;
+            font-size: 24px;
+            line-height: 32px;
         }
 
         p{
             padding-left: 20px;
             font-family: 'Barlow', sans-serif;
             color: #FFFFFF;
+            font-size: 16px;
+            line-height: 26px;
         }
     }
 }
 
 .order{
     border-radius: 10px;
-    margin-left: 24px;
-    margin-right: 24px;
     background-color: #2C343E;
     border-radius: 10px;
     margin-top: 104px;
@@ -219,12 +284,10 @@ body{
 
 .btn {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 100%;
+    justify-content: flex-end;
     margin-top: 50px;
-    margin-bottom: 104px;
+
 
     .btn1{
         text-align: center;
@@ -236,7 +299,6 @@ body{
         font-family: 'Fraunces', serif;
         font-size: 15px;
         color: #FEFCF7;
-        line-height: 25px;
     }
 }
 
