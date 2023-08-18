@@ -95,19 +95,16 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin-left: 24px;
-        margin-right: 24px;
+        margin: 104px 24px 0px 24px;
         background-color: #2C343E;
         border-radius: 10px;
-        margin-top: 104px;
-        padding-bottom: 50px;
+        padding-top: 208px;
+        height: 509px;
 
         h3 {
             font-family: 'Fraunces', serif;
             font-size: 35px;
             color: #FEFCF7;
-            margin-top: 0px;
-            margin-bottom: 50px;
         }
 
         p{
@@ -120,10 +117,10 @@
 
         img{
             width: 279px;
-            height: 156;
+            height: 156px;
             border-radius: 10px;
             position: relative;
-            transform: translate(0%, -50%);
+            transform: translate(0%, -345%);
         }
     }
 

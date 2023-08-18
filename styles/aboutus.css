@@ -105,7 +105,7 @@ body {
   font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 26px;
-  margin-right: 76px;
+  margin-right: 96px;
 }
 .commitment .our h3 {
   font-family: "Fraunces", serif;
@@ -142,7 +142,7 @@ body {
   line-height: 26px;
   font-size: 16px;
   color: #FEFCF7;
-  margin-right: 83px;
+  margin-right: 22px;
 }
 .uncompromising img {
   display: flex;
@@ -168,14 +168,11 @@ body {
 .headquarters .head h3 {
   font-family: "Fraunces", serif;
   font-size: 32px;
-  line-height: 36px;
   color: #333D4B;
 }
 .headquarters .head p {
   font-family: "Barlow", sans-serif;
-  line-height: 26px;
   font-size: 16px;
-  margin: 0px 18px;
   color: #333D4B;
 }
 .headquarters .head img {
