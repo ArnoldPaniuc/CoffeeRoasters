@@ -124,12 +124,9 @@
 
     .bags {
         display: flex;
-        align-items: center;
         justify-content: center;
         text-align: center;
         flex-wrap: wrap;
-        gap: 29px;
-        width: 100%;
         transform: translate(0, -28%);
 
         img{
@@ -202,11 +199,9 @@
 
         .quality {
             display: flex;
-            justify-content: center;
-            text-align: center;
+            justify-content: space-between;
             flex-wrap: wrap;
             height: 382px;
-            border-radius: 10px;
             transform: translate(0%, 40%);
             flex-grow: 1;
 
@@ -221,7 +216,6 @@
                 margin: 24px;
                 border-radius: 10px;
                 height: 382px;
-                width: 350px;
 
                 img{
                     width: 72px;
@@ -243,7 +237,7 @@
             color: #83888F;
         }
 
-        .circles{
+        .circles {
             display: flex;
             justify-content: space-between;
             position: relative;
@@ -251,19 +245,24 @@
             padding-right: 220px;
             margin-top: 50px;
             margin-bottom: 50px;
-
+            
             &::before {
                 content: '';
                 position: absolute;
                 top: 50%;
-                left: 0;
-                width: 40%;
-                height: 2px; 
-                background-color: #FDD6BA;
+                left: calc(0% + 0px);
                 transform: translateY(-50%);
-                z-index: -1; 
+                width: calc(53% - 153px);
+                height: 2px;
+                background-color: #FDD6BA;
+                z-index: -1;
             }
-       }
+        
+            .circle-1,
+            .circle-2 {
+                position: relative;
+            }
+        }
 
         .how{
             display: flex;
@@ -351,5 +350,8 @@
             }
         }
     }
+
+
+    
 
 

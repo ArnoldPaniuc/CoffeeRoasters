@@ -122,12 +122,9 @@ body {
 
 .bags {
   display: flex;
-  align-items: center;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  gap: 29px;
-  width: 100%;
   transform: translate(0, -28%);
 }
 .bags img {
@@ -192,11 +189,9 @@ body {
 }
 .choose .quality {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: space-between;
   flex-wrap: wrap;
   height: 382px;
-  border-radius: 10px;
   transform: translate(0%, 40%);
   flex-grow: 1;
 }
@@ -211,7 +206,6 @@ body {
   margin: 24px;
   border-radius: 10px;
   height: 382px;
-  width: 350px;
 }
 .choose .quality .coffee-bean img,
 .choose .quality .exclusive img,
@@ -244,12 +238,16 @@ body {
   content: "";
   position: absolute;
   top: 50%;
-  left: 0;
-  width: 40%;
+  left: calc(0% + 0px);
+  transform: translateY(-50%);
+  width: calc(53% - 153px);
   height: 2px;
   background-color: #FDD6BA;
-  transform: translateY(-50%);
   z-index: -1;
+}
+.how-it-works .circles .circle-1,
+.how-it-works .circles .circle-2 {
+  position: relative;
 }
 .how-it-works .how {
   display: flex;
