@@ -234,6 +234,9 @@ body {
 .cap .capsules.selected h3, .cap .capsules.selected p {
   color: #FFFFFF;
 }
+.cap.hidden .capsules {
+  display: none;
+}
 
 .order {
   border-radius: 10px;

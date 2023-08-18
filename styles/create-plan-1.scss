@@ -226,8 +226,8 @@ body{
         margin-top: 24px;
         padding-right: 20px;
         padding-bottom: 75px;
-        background-color: #F4F1EB; 
-        transition: background-color 0.3s ease; 
+        background-color: #F4F1EB;
+        transition: background-color 0.3s ease;
 
         h3 {
             font-family: 'Fraunces', serif;
@@ -254,7 +254,14 @@ body{
             }
         }
     }
+    
+    &.hidden {
+        .capsules {
+            display: none;
+        }
+    }
 }
+
 
 
 .order{
