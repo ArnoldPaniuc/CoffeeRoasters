@@ -83,7 +83,7 @@ body {
   padding-right: 40px;
 }
 
-.how-it-works {
+.how-it-works2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,49 +92,47 @@ body {
   background-color: #2C343E;
   margin-top: 104px;
   padding-bottom: 50px;
+  position: relative;
 }
-.how-it-works .pick {
+.how-it-works2 .pick {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.how-it-works .circles {
+.how-it-works2 .pick .pick-1 {
   display: flex;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
+  flex-direction: column;
 }
-.how-it-works .circles img {
+.how-it-works2 .pick .pick-1 .img1 {
   width: 31px;
-  z-index: 2;
-}
-.how-it-works .circles::before {
-  content: "";
-  position: absolute;
-  top: 88%;
-  left: 65px;
-  width: 95.5%;
-  height: 2px;
-  background-color: #FDD6BA;
-  transform: translateY(-50%);
   z-index: 1;
 }
-.how-it-works p {
+.how-it-works2 .pick::before {
+  content: "";
+  position: absolute;
+  top: 12.5%;
+  left: 65px;
+  width: 68.5%;
+  height: 2px;
+  background-color: #FDD6BA;
+  z-index: 1;
+}
+.how-it-works2 p {
   font-family: "Barlow", sans-serif;
   line-height: 26px;
   font-size: 16px;
   color: #FEFCF7;
   margin-left: 50px;
 }
-.how-it-works h3 {
+.how-it-works2 h3 {
   font-family: "Fraunces", serif;
   font-size: 32px;
   color: #FEFCF7;
   margin-left: 50px;
 }
-.how-it-works img {
+.how-it-works2 img {
   width: 90px;
-  padding-top: 100px;
+  padding-top: 50px;
   margin-left: 50px;
 }
 
