@@ -72,19 +72,13 @@ body {
     color: #FEFCF7;
   }
   .collection {
-    background-color: #FEFCF7;
-    margin: 0;
     font-family: "Fraunces", serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     font-size: 27px;
     height: 50px;
-    color: #83888F;
-    position: relative;
-    z-index: 1;
+    width: 100%;
     padding-top: 104px;
   }
   .collection h2 {
