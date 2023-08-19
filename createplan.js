@@ -148,4 +148,18 @@ function addCapsuleEventListener(className, spanId) {
     addCapsuleEventListener('capsules4', 'span5');
     addCapsuleEventListener('capsules5', 'span1');
   });
+
+
+//------------------------------------------------------------------------------------------------------
+  //--------- Used to switch between screen sizes --------------------------
+  const mediaQueryMobile = window.matchMedia('(max-width: 375px)');
+  function applyStyles(event) {
+      if (event.matches) {
+          document.getElementById('createPlanStylesheet').href = '/styles/create.mobile.css';
+      } else {
+          document.getElementById('createPlanStylesheet').href = '/styles/create-plan-1.css';
+      }
+  }
+  applyStyles(mediaQueryMobile);
+  mediaQueryMobile.addListener(applyStyles);
   
