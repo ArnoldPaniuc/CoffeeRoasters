@@ -1,16 +1,3 @@
-// let popup = document.getElementById("popup");
-
-// function openPopup() {
-//     popup.classList.add("open-popup");
-// }
-
-// function closePopup() {
-//     popup.classList.remove("open-popup");
-// }
-
-//----------------------------------------------------------------------------------------------------------------------- 
-
-
 // code to change background css for "how do you drink your coffee? and the below elements"
 document.addEventListener('DOMContentLoaded', function() {
     const capSections = document.querySelectorAll('.cap');
@@ -163,3 +150,32 @@ function addCapsuleEventListener(className, spanId) {
   applyStyles(mediaQueryMobile);
   mediaQueryMobile.addListener(applyStyles);
   
+//-------------------------------------------------------------
+
+
+function openPopup() {
+    document.querySelector('.popup-background').classList.add('open');
+}
+function closePopup() {
+    document.querySelector('.popup-background').classList.remove('open');
+}
+document.getElementById('createPlanButton').addEventListener('click', openPopup);
+
+
+//----------------------------------------------------------------------
+
+// Function to update popup content with order summary
+function updatePopupContent() {
+    const orderSummaryText = document.getElementById('orderSummaryText').innerHTML;
+    const popupHeaderText = document.querySelector('.popup h3');
+    popupHeaderText.innerHTML = orderSummaryText;
+}
+
+// Add an event listener to the "Create your plan" button
+document.getElementById('createPlanButton').addEventListener('click', function() {
+    openPopup();
+    updatePopupContent(); // Call the function to update popup content
+});
+
+// Add an event listener to the "Checkout" button inside the popup
+document.getElementById('checkoutButton').addEventListener('click', closePopup);

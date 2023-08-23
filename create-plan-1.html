@@ -176,17 +176,22 @@
                 </section>
                 <section class="order">
                     <h4>ORDER SUMMARY</h4>
-                    <h3>“I drink my coffee as <span id="span1" style="color:#0E8784">________</span>, with a <span id="span2" style="color:#0E8784">________</span> type of bean. <span id="span3" style="color:#0E8784">________</span> ground ala <span id="span4" style="color:#0E8784">________</span>, sent to me <span id="span5" style="color:#0E8784">________</span>.”</h3>
+                    <h3 id="orderSummaryText">“I drink my coffee as <span id="span1" style="color:#0E8784">________</span>, with a <span id="span2" style="color:#0E8784">________</span> type of bean. <span id="span3" style="color:#0E8784">________</span> ground ala <span id="span4" style="color:#0E8784">________</span>, sent to me <span id="span5" style="color:#0E8784">________</span>.”</h3>
                 </section>
                 <section class="btn">
-                    <input onclick="openPopup()" id="myButton" class="btn1" type="button" value="Create your plan">
+                    <input id="createPlanButton" class="btn1" type="button" value="Create your plan">
                 </section>
-                <!-- <section class="popup" id="popup">
-                    <h2>Order Summary</h2>
-                    <h3>“I drink my coffee as <span style="color:#0E8784">Filter</span>, with a <span style="color:#0E8784">Decaf</span> type of bean. <span style="color:#0E8784">250g</span> ground ala <span style="color:#0E8784">Cafetiére</span>, sent to me <span style="color:#0E8784">Every Week</span>.”</h3>
-                    <p>Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </p>
-                    <input onclick="closePopup()" class="btn1" type="button" value="Checkout - $14.00 / mo">
-                </section> -->
+                <section class="popup-background">
+                    <div class="popup" id="popup">
+                        <h2>Order Summary</h2>
+                        <h3>“I drink my coffee as <span style="color:#0E8784">Filter</span>, with a <span style="color:#0E8784">Decaf</span> type of bean. <span style="color:#0E8784">250g</span> ground ala <span style="color:#0E8784">Cafetiére</span>, sent to me <span style="color:#0E8784">Every Week</span>.”</h3>
+                        <p>Is this correct? You can proceed to checkout or go back to plan selection if something is off. Subscription discount codes can also be redeemed at the checkout. </p>
+                        <div class="checkout-2">
+                            <h4>$14.00/ mo</h4>
+                            <input onclick="closePopup()" class="btn1" type="button" value="Checkout">
+                        </div>
+                    </div>
+                </section>
             </section>
         </div>
     </section>
