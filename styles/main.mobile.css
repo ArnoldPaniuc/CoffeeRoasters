@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-@media (width < 375px) {
+@media screen and (max-width: 375px) {
   body {
     background-color: #FEFCF7;
     padding-bottom: 104px;
@@ -27,6 +27,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .nav .navigation {
+    display: none;
   }
   .first-container {
     height: 490px;
@@ -69,19 +72,13 @@ body {
     color: #FEFCF7;
   }
   .collection {
-    background-color: #FEFCF7;
-    margin: 0;
     font-family: "Fraunces", serif;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     font-size: 27px;
     height: 50px;
-    color: #83888F;
-    position: relative;
-    z-index: 1;
+    width: 100%;
     padding-top: 104px;
   }
   .collection h2 {
@@ -132,7 +129,7 @@ body {
   .choose p {
     font-family: "Barlow", sans-serif;
     line-height: 25px;
-    font-size: 15px;
+    font-size: 16px;
     margin: 0px 18px;
     color: #FEFCF7;
   }
@@ -144,47 +141,21 @@ body {
     height: 680px;
     border-radius: 10px;
   }
-  .choose .quality .coffee-bean {
-    background-color: #0E8784;
-    margin: 24px;
-    border-radius: 10px;
-    padding-top: 80px;
-    height: 400px;
+  .choose .quality p {
+    line-height: 26px;
+    font-family: "Barlow", sans-serif;
   }
-  .choose .quality .coffee-bean p {
-    margin-right: 32px;
-    margin-left: 32px;
-  }
-  .choose .quality .coffee-bean h3 {
+  .choose .quality h3 {
     padding-top: 50px;
   }
-  .choose .quality .exclusive {
-    background-color: #0E8784;
-    margin: 24px;
-    border-radius: 10px;
-    padding-top: 80px;
-    height: 400px;
-  }
-  .choose .quality .exclusive p {
-    margin-right: 32px;
-    margin-left: 32px;
-  }
-  .choose .quality .exclusive h3 {
-    padding-top: 50px;
-  }
+  .choose .quality .coffee-bean,
+  .choose .quality .exclusive,
   .choose .quality .free {
     background-color: #0E8784;
     margin: 24px;
     border-radius: 10px;
     padding-top: 80px;
     height: 400px;
-  }
-  .choose .quality .free p {
-    margin-right: 32px;
-    margin-left: 32px;
-  }
-  .choose .quality .free h3 {
-    padding-top: 50px;
   }
   .how-it-works {
     margin-top: 600px;
@@ -195,6 +166,9 @@ body {
     text-align: center;
     padding: 50px 24px 16px 24px;
     width: 100%;
+  }
+  .how-it-works .circles {
+    display: none;
   }
   .how-it-works p {
     font-family: "Barlow", sans-serif;
@@ -211,7 +185,7 @@ body {
   }
   .how-it-works h3 {
     font-family: "Fraunces", serif;
-    font-size: 24px;
+    font-size: 28px;
     color: #333D4B;
   }
   .how-it-works .btn1 {

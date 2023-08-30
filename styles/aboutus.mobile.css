@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-@media (width < 375px) {
+@media (width < 376px) {
   body {
     background-color: #FEFCF7;
     padding-bottom: 104px;
@@ -27,6 +27,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  .nav-2 .navigation {
+    display: none;
   }
   .first-container-2 {
     height: 520px;
@@ -89,19 +92,16 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin: 104px 24px 0px 24px;
     background-color: #2C343E;
     border-radius: 10px;
-    margin-top: 104px;
-    padding-bottom: 50px;
+    padding-top: 208px;
+    height: 509px;
   }
   .uncompromising h3 {
     font-family: "Fraunces", serif;
     font-size: 35px;
     color: #FEFCF7;
-    margin-top: 0px;
-    margin-bottom: 50px;
   }
   .uncompromising p {
     font-family: "Barlow", sans-serif;
@@ -112,10 +112,10 @@ body {
   }
   .uncompromising img {
     width: 279px;
-    height: 156;
+    height: 156px;
     border-radius: 10px;
     position: relative;
-    transform: translate(0%, -50%);
+    transform: translate(0%, -345%);
   }
   .headquarters {
     margin: 0;
