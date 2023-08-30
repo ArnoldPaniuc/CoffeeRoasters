@@ -1,7 +1,7 @@
 @import "base";
 @import "mixins";
 
-@media (width < 375px) {
+@media screen and (max-width:375px){
 
     body{
         background-color: #FEFCF7;
@@ -20,6 +20,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+        }
+
+        .navigation{
+            display: none;
         }
     }
 
@@ -68,19 +72,13 @@
     }
 
     .collection {
-        background-color: #FEFCF7;
-        margin: 0;
         font-family: 'Fraunces', serif;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
         font-size: 27px;
         height: 50px;
-        color: #83888F;
-        position: relative;
-        z-index: 1;
+        width: 100%;
         padding-top: 104px;
 
         h2{ 
@@ -137,7 +135,7 @@
         p{
             font-family: 'Barlow', sans-serif;
             line-height: 25px;
-            font-size: 15px;
+            font-size: 16px;
             margin: 0px 18px;
             color: #FEFCF7;
         }
@@ -151,55 +149,23 @@
             height: 680px;
             border-radius: 10px;
 
-            .coffee-bean {
-                background-color: #0E8784;
-                margin: 24px;
-                border-radius: 10px;
-                padding-top: 80px;
-                height: 400px;
-
-                p{
-                    margin-right: 32px;
-                    margin-left: 32px;
-                }
-
-                h3{
-                    padding-top: 50px;
-                }
+            p{
+                line-height: 26px;
+                font-family: 'Barlow', sans-serif;
             }
 
-            .exclusive{
-                background-color: #0E8784;
-                margin: 24px;
-                border-radius: 10px;
-                padding-top: 80px;
-                height: 400px;
-
-                p{
-                    margin-right: 32px;
-                    margin-left: 32px;
-                }
-
-                h3{
-                    padding-top: 50px;
-                }
+            h3{
+                padding-top: 50px;
             }
 
-            .free{
+            .coffee-bean,
+            .exclusive,
+            .free {
                 background-color: #0E8784;
                 margin: 24px;
                 border-radius: 10px;
                 padding-top: 80px;
                 height: 400px;
-
-                p{
-                    margin-right: 32px;
-                    margin-left: 32px;
-                }
-
-                h3{
-                    padding-top: 50px;
-                }
             }
         }
     }
@@ -213,6 +179,10 @@
         text-align: center;
         padding: 50px 24px 16px 24px;
         width: 100%;
+
+        .circles{
+            display: none;
+        }
 
         p{
             font-family: 'Barlow', sans-serif;
@@ -231,7 +201,7 @@
 
         h3{
             font-family: 'Fraunces', serif;
-            font-size: 24px;
+            font-size: 28px;
             color: #333D4B;
         }
 
@@ -272,7 +242,7 @@
         }
 
         .imag{
-            margin-top: 50px;
+            margin-top: 25px;
             
             img{
                 margin-right: 15px;

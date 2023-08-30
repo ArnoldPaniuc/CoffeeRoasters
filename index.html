@@ -5,13 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Roasters</title>
     <link rel="stylesheet" href="/styles/main.mobile.css">
+    <link id="mainStylesheet" rel="stylesheet" href="/styles/main.mobile.css">
+    <script src="/main&mobile.js" ></script>
     <script src="https://kit.fontawesome.com/0da9b197df.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="nav">
         <header>
             <img class="img1" src="/images/Group 6.png" alt="Coffee Roasters Logo">
-            <img src="/images/Combined Shape 2.svg">
+            <img class="hamburger" src="/images/Combined Shape 2.svg">
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#Home">HOME</a></li>
+                    <li><a href="#ABOUT US">ABOUT US</a></li>
+                    <li><a href="#CREATE YOUR PLAN">CREATE YOUR PLAN</a></li>
+                </ul>
+            </nav>
         </header>
     </section>
     <section class="first-container">
@@ -29,17 +38,17 @@
             <h3>Gran Espresso</h3>
             <p>Light and flavorful blend with cocoa and black pepper for an intense experience</p>
         </section>
-        <section class="planalto">
+        <section class="gran-espresso">
             <img src="/images/kopi2.png" alt="planalto bag">
             <h3>Planalto</h3>
             <p>Brazilian dark roast with rich and velvety body, and hints of fruits and nuts</p>
         </section>
-        <section class="piccollo">
+        <section class="gran-espresso">
             <img src="/images/kopi3.png" alt="piccollo bag">
             <h3>Piccollo</h3>
             <p>Mild and smooth blend featuring notes of toasted almond and dried cherry </p>
         </section>
-        <section class="danche">
+        <section class="gran-espresso">
             <img src="/images/kopi4.png" alt="piccollo bag">
             <h3>Danche</h3>
             <p>Ethiopian hand-harvested blend densely packed with vibrant fruit notes</p>
@@ -69,35 +78,56 @@
         </section>
     </section>
     <section class="how-it-works">
-        <h4>How it works</h4>
-        <section>
-            <img src="/images/01.png" alt="number 01">
-            <h3>Pick your coffee</h3>
-            <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
-        </section>
-        <section>
-            <img src="/images/02.png" alt="number 02">
-            <h3>Choose the frequency</h3>
-            <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
-        </section>
-        <section>
-            <img src="/images/03.png" alt="number 03">
-            <h3>Recevie and enjoy!</h3>
-            <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
-                world-class coffees curated to provide a distinct tasting experience.</p>
+        <div class="works">
+            <h4>How it works</h4>
+        </div>
+        <div class="circles">
+            <div class="circle-1">
+                <img src="/images/Oval.svg">
+            </div>
+            <div class="circle-2">
+                <img src="/images/Oval.svg">
+            </div>
+            <div>
+                <img src="/images/Oval.svg">
+            </div>
+        </div>
+        <div class="how">
+            <section class="how-1">
+                <img src="/images/01.png" alt="number 01">
+                <h3>Pick your coffee</h3>
+                <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </section>
+            <section class="how-2">
+                <img src="/images/02.png" alt="number 02">
+                <h3>Choose the frequency</h3>
+                <p>Customize your order frequency, quantity, even your roast style and grind type. Pause, skip or cancel your subscription with no commitment through our online portal.</p>
+            </section>
+            <section class="how-3">
+                <img src="/images/03.png" alt="number 03">
+                <h3>Recevie and enjoy!</h3>
+                <p>We ship your package within 48 hours, freshly roasted. Sit back and enjoy award-winning 
+                    world-class coffees curated to provide a distinct tasting experience.</p>
+            </section>
+        </div>
+        <div class="btn-container">
             <input class="btn1" type="button" value="Create your plan">
-        </section>
+        </div>
     </section>
     <section class="end">
-        <img class="imagi" src="/images/Group 5.png" alt="coffee roasters logo">
-        <h4>HOME</h4>
-        <h4>ABOUT US</h4>
-        <h4>CREATE YOUR PLAN</h4>
-        <section class="imag">
+        <div>
+            <img class="imagi" src="/images/Group 5.png" alt="coffee roasters logo">
+        </div>
+        <div class="footer-h">
+            <h4>HOME</h4>
+            <h4>ABOUT US</h4>
+            <h4>CREATE YOUR PLAN</h4>
+        </div>
+        <div class="imag">
             <img src="/images/Path (1).png" alt="facebook logo">
             <img src="/images/Path (2).png" alt="twiter logo">
             <img src="/images/Shape.png" alt="instagram logo">
-        </section>
+        </div>
     </section>
 </body>
 </html>
